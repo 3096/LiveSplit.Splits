@@ -304,7 +304,7 @@ namespace LiveSplit.UI.Components
             {
                 trkSize.DataBindings.Clear();
                 trkSize.Minimum = 5;
-                trkSize.Maximum = 120;
+                trkSize.Maximum = 500;
                 SplitWidth = Math.Min(Math.Max(trkSize.Minimum, SplitWidth), trkSize.Maximum);
                 trkSize.DataBindings.Add("Value", this, "SplitWidth", false, DataSourceUpdateMode.OnPropertyChanged);
                 lblSplitSize.Text = "Split Width:";

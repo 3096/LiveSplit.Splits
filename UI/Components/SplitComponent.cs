@@ -144,12 +144,12 @@ namespace LiveSplit.UI.Components
                 {
                     NameLabel.VerticalAlignment = StringAlignment.Near;
                     NameLabel.Y = 0;
-                    NameLabel.Height = 50;
+                    NameLabel.Height = 500;
                     foreach (var label in LabelsList)
                     {
                         label.VerticalAlignment = StringAlignment.Far;
-                        label.Y = height - 50;
-                        label.Height = 50;
+                        label.Y = 60;
+                        label.Height = 120;
                     }
                 }
 
